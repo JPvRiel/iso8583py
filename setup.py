@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='ISO8583-Module',
-		version='1.3',
+		version='1.4',
 		description='ISO8583 LIBRARY',
 		author='Igor V. Custodio',
 		author_email='igorvc@vulcanno.com.br',
@@ -11,7 +11,7 @@ setup(name='ISO8583-Module',
 		download_url='http://code.google.com/p/iso8583py/downloads/list',
 		packages=['ISO8583'],
 		classifiers=[
-		'Development Status :: 5 - Production/Stable',
+		'Development Status :: 4 - Beta',
 		'Environment :: Console',
 		'Intended Audience :: Financial and Insurance Industry',
 		'Intended Audience :: Telecommunications Industry',
@@ -69,7 +69,6 @@ setup(name='ISO8583-Module',
 		'Programming Language :: Python :: 3.0',
 		'Programming Language :: Python :: 3.1',
 		'Programming Language :: Python :: 3.2'
-		
+
       ]
      )
-
