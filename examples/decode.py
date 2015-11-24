@@ -3,8 +3,8 @@ import argparse
 import traceback
 import sys
 
-from ISO8583 import ISO8583
-from ISOErrors import *
+from ISO8583.ISO8583 import ISO8583
+from ISO8583.ISOErrors import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-D", "--debug", help="Enable debug", action="store_true", default=False)
